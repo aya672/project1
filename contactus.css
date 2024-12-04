@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #8575a3, #462279);
+}
+
+.contact-card {
+    background-color: rgba(255, 255, 255, 0.7); ;
+    width: 250px;
+    padding: 100px;
+    border-radius: 100px;
+    text-align: center;
+    border: 5px solid #0a2a63;
+    box-shadow: 10px 10px 10px #0a2a63;
+    position: relative;
+}
+
+.contact-header {
+    margin-bottom: 20px;
+}
+
+.contact-header .logo {
+    width: 200px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+
+.contact-header h1 {
+    font-size: 24px;
+    margin: 10px 0 5px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    color: #333;
+}
+
+.icon {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.contact-footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+.illustration h3 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #e5d4f5;
+    position: absolute ;
+    top:-100px;
+    left: -500px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}

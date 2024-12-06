@@ -1,0 +1,114 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color:  #eef1f5;
+    margin-top: 0px;
+}
+
+th, td {
+    border: 1px solid #e5d4f5;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background: linear-gradient(to right, #8575a3, #462279);
+}
+
+tfoot td {
+    border-top: 1px solid #e5d4f5;
+    text-align: center;
+}
+
+tfoot p {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    
+    position: sticky;
+    background: linear-gradient(to right, #8575a3, #462279);
+    color: white;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #bdc3c7;
+}
+
+
+.sidebar {
+    position: fixed;
+   
+   
+   width: 16%;
+    height: 100vh; 
+    background: linear-gradient(to bottom, #8575a3, #462279);
+    color: white;
+   
+    z-index: 100;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2); 
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+ 
+}
+
+.sidebar li {
+    padding: 10px ;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar li:hover {
+    background-color: rgba(255, 255, 255, 0.1); 
+}
+.dropdown {
+    margin: 10px 0;
+}
+
+.courses-list a {
+    text-decoration: none;
+    color: white;
+}
+
+.course-item {
+    padding: 5px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.course-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+body {
+    margin-left: 220px; 
+}
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.no-padding{
+    padding: 0px !important;
+    
+  }

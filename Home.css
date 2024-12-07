@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #e0e0e0;
+  color: #333;
+}
+
+.header {
+  justify-content: space-between;
+  position: sticky; 
+  width: 100%;
+  background: linear-gradient(to right, #8575a3, #462279);
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding:1px;
+  
+}
+
+header {
+  display: flex;
+} 
+.row {
+  display: flex;
+  align-items: flex-start; 
+}
+
+.col-md-10 {
+  margin-top: 0; 
+  padding: 0 15px; 
+
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #bdc3c7;
+}
+
+.content {
+  display: flex;
+ 
+  height: 100vh; 
+  margin-top: 70px; 
+}
+
+.card {
+  background-color: #e0e0e0;
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: 100%; 
+  width: 100%; 
+
+}
+
+.left-card {
+  text-align: left;
+  margin-top: 1px;
+}
+
+.sidebar {
+  background: linear-gradient(to right, #8575a3, #462279);
+  color: white;
+   height: 100vh;
+   width: 16%;
+   position: fixed; 
+   margin-top: 1px;
+}
+
+
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 10px;
+  border-bottom: 1px solid #34495e;
+  cursor: pointer;
+  color: #ecf0f1;
+  
+}
+
+.sidebar li:hover {
+  background-color: #462279;
+}
+.course-item {
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.course-item:hover {
+  background-color: #543d74 !important;
+  color: #ecf0f1;
+  font-weight: bold;
+}
+
+.course-item.active {
+  background-color: #543d74;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.courses-list a {
+  text-decoration: none; 
+}
+
+.left-card h2 {
+  margin-bottom: 5px;
+}
+
+.role {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.left-card hr {
+  border: 0;
+  border-top: 1px solid #e0e0e0;
+  margin: 20px 0;
+}
+
+.left-card p {
+  margin-bottom: 10px;
+  font-size: 130%;
+}
+
+.no-padding{
+  padding: 0px !important;
+  
+}

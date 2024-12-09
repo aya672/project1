@@ -1,0 +1,194 @@
+body {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  
+}
+.sidebar, .content, .chat-app {
+  flex: 1;
+ padding-left: 10px;
+}
+
+.chat-app {
+  background-color: #eef1f5;
+  display: flex;
+  flex-direction: column;
+  flex:2;
+}
+  
+  .container{
+    background-color: linear-gradient(to right, #8575a3, #462279); 
+    padding: 20px;
+  }
+  .header {
+    justify-content: space-between;
+    position: sticky; 
+    width: 100%;
+    background: linear-gradient(to right, #8575a3, #462279);
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+  
+  .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+  
+  }
+
+  .sidebar {
+    background: linear-gradient(to right, #8575a3, #462279);
+    color: white;
+    height: 100vh;
+}
+
+
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 10px;
+    border-bottom: 1px solid #34495e;
+    cursor: pointer;
+    color: #ecf0f1;
+}
+
+
+.content {
+  background-color: rgba(255, 255, 255, 0.7);
+  flex:3;
+}
+
+
+header {
+    display: flex;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #bdc3c7;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 14px 6px rgba(91, 6, 91, 0.164);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+.chat-window {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chat-header {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    background-color: white;
+  }
+  
+  .chat-title {
+    font-weight: bold;
+  }
+  
+  .chat-messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #eef1f5;
+  }
+  
+  .message {
+    margin-bottom: 10px;
+  }
+  
+  .message-text {
+    background: linear-gradient(to right, #8575a3, #462279);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  
+  .chat-input {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    background-color: white;
+    margin: 359px 10px 10px 10px;
+  }
+  
+  .chat-input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .send-btn {
+    background: linear-gradient(to right, #8575a3, #462279);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .send-btn:active {
+    transform: scale(0.85); 
+    background: #462279;
+}
+.course-item {
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.course-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ecf0f1;
+  font-weight: bold;
+}
+
+.course-item.active {
+  background-color: #543d74;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.courses-list a {
+  text-decoration: none; 
+}
+
+.no-padding{
+  padding: 0px !important;
+  
+}
